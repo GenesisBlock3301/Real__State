@@ -121,7 +121,7 @@ class SearchView(APIView):
 
         for query in queryset:
             num_days = (datetime.now(timezone.utc) - query.list_date).days
-
+            print(">>>>>>>>>>>>>>>>>>>>",type(days_passed),days_passed,type(num_days),num_days)
             if days_passed != 0:
                 if num_days > days_passed:
                     slug = query.slug

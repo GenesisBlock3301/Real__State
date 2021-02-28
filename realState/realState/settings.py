@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'realtors',
     'listing',
-    'accounts'
+    'accounts',
+    'contact'
 ]
 
 MIDDLEWARE = [
@@ -143,3 +144,13 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 FILE_UPLOAD_PERMISSIONS = 0o640
 AUTH_USER_MODEL = 'accounts.UserAccount'
+# nas12345@#
+
+#########
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'poralekha3301@gmail.com'
+EMAIL_HOST_PASSWORD = 'nas12345@#'
+EMAIL_USE_TLS = True
+###############
