@@ -4,14 +4,20 @@
 @import "base/_base.scss";
 @import "base/_utilities.scss";
 
-@import "components/_notfound.scss";
+@import "components/_alert";
+@import "components/_navbar";
+@import "components/_auth";
+@import "components/_card";
+@import "components/_notfound";
+@import "components/_pagination";
+@import "components/_listingform";
 
 @import "layout/_grid.scss";
 
-@import "pages/_about.scss";
-@import "pages/_contact.scss";
-@import "pages/_home.scss";
-@import "pages/_listingDetail.scss";
-@import "pages/_listing.scss";
+@import "pages/_about";
+@import "pages/_contact";
+@import "pages/_home";
+@import "pages/_listings";
+@import "pages/_listingDetail";
 
 

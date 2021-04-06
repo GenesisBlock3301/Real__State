@@ -10,7 +10,7 @@ class ContactCreateView(APIView):
 
     def post(self, request, format=None):
         data = self.request.data
-
+        print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>")
         try:
             send_mail(
                 data['subject'],
